@@ -45,7 +45,7 @@ public class StreamAlerterTests {
         }
         // TODO 按照您的实际情况写运行时间，并在提交时说明这两种情况下耗时情况
         // on my Laptop,
-        // total time is about 25s, Random use 11s, Trie+Ring use 14s
+        // total time is about 28s, Random use 8s, Trie+Ring use 16s
         long end = System.currentTimeMillis();
         System.out.printf("on my Laptop,\ntotal time is about %ds, Random use %ds, Trie+Ring use %ds\n", (end - begin)/1000, randomTime/1000, trieRingTime/1000);
         assertNotEquals(0, count); // count > 0
